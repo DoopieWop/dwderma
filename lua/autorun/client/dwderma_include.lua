@@ -1,0 +1,6 @@
+include("dwderma/dwgenericbutton.lua")
+include("dwderma/dwbutton.lua")
+include("dwderma/dwpanel.lua")
+include("dwderma/dwframe.lua")
+include("dwderma/dwmenu.lua")
+include("dwderma/dwbuttonbar.lua")
