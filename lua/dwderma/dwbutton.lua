@@ -17,7 +17,7 @@ function PANEL:Paint(w, h)
     end
 
     draw.RoundedBox(0, 0, 0, w, h, col)
-    surface.SetDrawColor(borcol:Unpack())
+    surface.SetDrawColor(borcol.r, borcol.g, borcol.b)
     surface.DrawOutlinedRect(0, 0, w, h, 1)
 end
 

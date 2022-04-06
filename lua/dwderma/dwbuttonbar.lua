@@ -70,8 +70,8 @@ function PANEL:PerformLayout()
         surface.SetFont(font)
         local fontsizew, fontsizeh = surface.GetTextSize(text)
         local segment = self.IsHorizontal and width / sum or height / sum
-        local segmentbit = (segment * k) - (segment / 2)
-        local pos, middle = self.IsHorizontal and segmentbit - (fontsizew / 2) or segmentbit - (fontsizeh / 2), self.IsHorizontal and height / 2 - fontsizeh / 2 or width / 2 - fontsizew / 2
+            local segmentbit = (segment * k) - (segment / 2)
+            local pos, middle = self.IsHorizontal and segmentbit - (fontsizew / 2) or segmentbit - (fontsizeh / 2), self.IsHorizontal and height / 2 - fontsizeh / 2 or width / 2 - fontsizew / 2
 
         v:SetPos(pos, middle)
     end
